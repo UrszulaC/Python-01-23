@@ -1,0 +1,71 @@
+#ages = [12,18,33,84,45,67,12,82,95,16,10,23,43,29,40,34,30,16,44,69,70,74,38,65,36,83,50,11,79,64,78,37,3,8,68,22,4,60,33,82,45,23,5,18,28,99,17,81,14,88,50,19,59,7,44,93,35,72,25,63,11,69,11,76,10,60,30,14,21,82,47,6,21,88,46,78,92,48,36,28,51]
+#1.	Record the length of the ages List in a variable (you'll need it later)
+#length = len(ages)
+    #print(length)
+
+#2.	Display these ages one on each line
+#for num in ages:
+    #print (num)
+
+#3.	Add one year to every age!
+#for num in range(len(ages)):
+    #ages[num] +=1 
+#print (ages)
+
+#4.	Our code only takes into account those people in the age range of 16-65 (inclusively)
+
+#for num in ages:
+    #if num not in range(16,66):
+        #ages.remove(num)
+#print(ages)
+
+#5.	Display the count of 16-25 year olds.
+
+#youngsters = 0
+
+#for num in ages:
+    #if num > 15 and num < 26:
+        #youngsters +=1
+#print(youngsters)
+
+#6.	Invoke the sort method on the ages List. 
+#Tip:	 Use this line of code:   ages.sort()
+#Display the ages List to make sure they are sorted. 
+
+#ages.sort()
+#print (ages)
+
+#7.	What proportion of ages fall between 16-25?
+#Test your code by displaying this value.
+
+#youngsters = 0
+#others = 0
+
+#for num in ages:
+    #if num >15 and num <26:
+        #youngsters +=1
+    #else: 
+        #others +=1
+#proportion = youngsters/len(ages)
+#print(proportion)
+
+#Count Vowels    
+#1.	Add a new file: CountVowels.py and make it the startup file.  
+
+
+#2.	Inputs a word (a string).
+#3.	Counts how many vowels are in the word.   
+#Tip: You can scroll through every character of a string in the same way as you do with 	numbers in a range() function. 
+#Use a simple if statement/s to detect if the character is 'a', 'e', 'i' 'o’ or  'u'
+#Every time you find a vowel you must increase a counter (an integer variable)
+#Or (better), you may consider using the 'in' keyword.
+#4.	Save and run.
+
+#word = input("Please enter a word:")
+#vowels = "aeiou"
+#count = 0
+
+#for letter in word:
+    #if  letter in vowels:
+        #count +=1
+#print(count)        
